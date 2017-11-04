@@ -83,7 +83,7 @@ Example 1:
 * search for "seleniumhq"
 * close the browser
 
-::python
+.. code-block:: python
 
     from selenium import webdriver
     from selenium.webdriver.common.keys import Keys
@@ -103,7 +103,7 @@ Example 2:
 
 Selenium WebDriver is often used as a basis for testing web applications.  Here is a simple example uisng Python's standard `unittest <http://docs.python.org/3/library/unittest.html>`_ library:
 
-:: python
+.. code-block:: python
 
     import unittest
     from selenium import webdriver
